@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+  }
+  
+  #loginSection {
+    display: block;
+  }
+  
+  #mainApp {
+    display: none;
+  }
+  
+  #watchlist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #watchlist li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
